@@ -98,8 +98,7 @@ print(max(np.abs(num_u - num_u_real)))
 ```
 
 after 1000 iteration, this error is 0.009
-
-![image-20211224135530649](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20211224135530649.png)
+![image](https://user-images.githubusercontent.com/46051884/147323829-05193082-ce1f-4193-963a-f9f9f9711f79.png)
 
 
 
@@ -118,6 +117,5 @@ ax.scatter3D(xdata, ydata, zdata-zdata,s=0.1,label="predict")
 ax.scatter3D(xdata, ydata, zdata,s=0.1,c="g",label="error")
 ax.legend()
 ```
-
-![output](E:\Desktop\jpt_wd\output.png)
+![output](https://user-images.githubusercontent.com/46051884/147323747-389d934c-1c25-45f3-9985-484f86cf5513.png)
 
